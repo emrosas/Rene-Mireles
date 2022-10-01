@@ -11,7 +11,12 @@ module.exports = {
       title: ["teko", "sans-serif"],
       sans: ["raleway", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      spacing: {
+        "5vw": "5vw",
+        "7.5vw": "7.5vw",
+      },
+    },
   },
   plugins: [],
 };
