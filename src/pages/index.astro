@@ -104,12 +104,12 @@ import Layout from "../layouts/Layout.astro";
           for="message"
           class="flex flex-col gap-5 w-full font-bold text-3xl"
           >Mensage
-          <input
-            type="text"
+          <textarea
             name="message"
             id="message"
-            class="h-60 p-5 rounded-md text-black"
-          />
+            cols="30"
+            rows="10"
+            class="h-60 p-5 rounded-md text-black whitespace-normal"></textarea>
         </label>
         <button
           type="submit"
