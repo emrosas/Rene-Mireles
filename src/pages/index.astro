@@ -7,8 +7,8 @@ import Layout from "../layouts/Layout.astro";
 </head>
 
 <Layout>
-  <section id="hero" class="mb-60">
-    <div class="flex flex-col items-center px-5vw py-32">
+  <section id="hero" class="mb-60 md:flex">
+    <div class="flex flex-col items-center px-5vw py-32 md:items-start">
       <div>
         <h3 class="font-title text-4xl">YO SOY</h3>
         <h1 class="text-center font-title text-9xl font-bold">RENE MIRELES</h1>
@@ -18,7 +18,9 @@ import Layout from "../layouts/Layout.astro";
         <h2 class="text-4xl font-medium">Disenador / Ilustrador</h2>
         <img src="cristal.svg" alt="decoration" class="w-3" />
       </div>
-      <p class="mb-16 text-center text-3xl leading-relaxed opacity-50">
+      <p
+        class="mb-16 text-center text-3xl leading-relaxed opacity-50 md:text-left"
+      >
         Ayudo a duenos de negocios a mejorar la identidad de sus marcas al crear
         disenos que les ayuden a transmitir su mensaje claramente y de manera
         creativa.
@@ -33,7 +35,7 @@ import Layout from "../layouts/Layout.astro";
     <img
       src="rene-paint.png"
       alt="Painting of this websites creator"
-      class="w-full"
+      class="w-full md:aspect-square"
     />
   </section>
   <section id="skills" class="mb-60">
